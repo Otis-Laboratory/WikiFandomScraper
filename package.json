@@ -1,0 +1,26 @@
+{
+  "name": "wikifandomscraper",
+  "version": "1.0.0",
+  "description": "Scrape fandom wikis and convert them into JSON for text generation algorithms.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:prod": "node out/index.js",
+    "build": "tsc --build"
+  },
+  "author": "otisai",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@types/argparse": "^2.0.16",
+    "@types/he": "^1.2.3",
+    "argparse": "^2.0.1",
+    "he": "^1.2.0",
+    "jsdom": "^24.0.0",
+    "wikitext2plaintext": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2"
+  }
+}
