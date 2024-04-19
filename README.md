@@ -1,6 +1,6 @@
 Standalone version of [SillyTavern's Fandom Scraper](https://github.com/Cohee1207/SillyTavern-Fandom-Scraper) used for scraping Fandom sites for lore for text generation algorithm training. All that was changed from SillyTavern's version is that the functions have been abstracted, and a standalone script was made to be run.
 
-Fandom scraping can be accomplished by using the export page in the wikis, however this is rarely updated, and an admin has to approve a wikidump; This utilizes the Special:AllPages instead, so that the most up-to-date lore and information can be scraped.
+Fandom scraping can be accomplished by using the export page in the wikis, however this is rarely updated, and an admin has to approve a wikidump; This utilizes the Special:AllPages feature instead, so that the most up-to-date lore and information can be scraped.
 
 PLEASE NOTE: This code is in no means efficient. It is a shitty script implementation of the SillyTavern scraper, and has many inefficient functions. Feel free to PR fixes, however the script is still quite fast as is, so I've just left it.
 
