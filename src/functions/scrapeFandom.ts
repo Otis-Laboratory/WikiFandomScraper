@@ -87,5 +87,7 @@ export default async function scrapeFandom(
     }
   }
 
+  printColor(`[INFO] Finished scraping, mapping XML...`, MessageType.INFO);
+
   return rawXml.flatMap((xml) => getPagesFromXml(xml));
 }

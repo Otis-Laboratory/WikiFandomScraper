@@ -1,3 +1,5 @@
+import { MessageType, printColor } from "../tools/printColor";
+
 export default function getFandomId(fandom: string) {
   try {
     fandom = fandom.trim();
@@ -8,7 +10,7 @@ export default function getFandomId(fandom: string) {
 
     if (!fandomId) return fandom;
 
-    console.log(`Fandom ID: ${fandomId}`);
+    printColor(`[INFO] Fandom ID: ${fandomId}`, MessageType.INFO);
     return fandomId;
   } catch (error) {
     console.log(
